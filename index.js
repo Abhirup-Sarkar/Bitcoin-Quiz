@@ -4,7 +4,7 @@ var score = 0;
 //Taking username as input
 
 var userName = readlineSync.question("What's your name?\n");
-console.log("Hi "+userName+"! Welcome to the 'Bitcoin Quiz' game.");
+console.log("Hi "+userName+"! Welcome to the 'Bitcoin Quiz' game. There will be five questions and you score a point for each correct answer and lose a point for each incorrect answer. To answer a question 'Type the correct option, for example a,b or c and press Enter'. Try to beat the high score and have fun!");
 console.log("------------------");
 if(readlineSync.keyINYN("have you understood the instruction?"))
 {
