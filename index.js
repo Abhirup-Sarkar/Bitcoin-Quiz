@@ -78,3 +78,19 @@ var questionList=[
         correctAnswer: "c",
     }
 ]
+//calling the function
+
+for(i=0;i<questionList.length;i++)
+{
+    var currentQuestion = questionList[i].question;
+    var optionOne = questionList[i].a;
+    var optionTwo = questionList[i].b;
+    var optionThree = questionList[i].c;
+    console.log(currentQuestion);
+    console.log(optionOne);
+    console.log(optionTwo);
+    console.log(optionThree);
+    play(currentQuestion.question,currentQuestion.correctAnswer);
+}
+//final score
+
