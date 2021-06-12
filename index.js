@@ -94,3 +94,24 @@ for(i=0;i<questionList.length;i++)
 }
 //final score
 
+console.log("Your final score is: ",score);
+console.log("------------------");
+//highscore
+
+var highScore={
+    name: "Amartya Raj Basu",
+    score: 4,
+}
+
+if(score>=highScore.score)
+{
+    highScore.score = score;
+    console.log("The highest score, "+highScore.score+", is made by you.");
+    console.log("Congrats!You made a new highscore. Send me a screenshot of your name and highscore at 'abhirup_skr' on Instagram or twitter(same username) so that I can update the database.");
+}
+else
+{
+    console.log("Too bad! You could not beat the highest score.");
+    console.log("The highest score is: ",highScore);
+}
+
